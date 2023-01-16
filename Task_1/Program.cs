@@ -5,7 +5,15 @@ int number1 = int.Parse(Console.ReadLine()!);
 int number2 = int.Parse(Console.ReadLine()!);
 if (number1 > number2)
 {
-    Console.WriteLine(number1 - большее;);
-    Console.WriteLine(number2 - меньшее.);
-    }
-   
+Console.WriteLine($"{number1} большее");
+Console.WriteLine($"{number2} меньшее");
+}
+if (number2 > number1) 
+{
+Console.WriteLine($"{number1} меньшее");
+Console.WriteLine($"{number2} большее");
+}
+else if (number1 == number2)
+{
+    Console.WriteLine("Числа равны");
+}
